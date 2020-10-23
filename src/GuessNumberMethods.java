@@ -2,8 +2,8 @@
 
 public class GuessNumberMethods {
     Scanner scanner = new Scanner(System.in);
-    int number = 0;
     public void guessNumber() {
+        int number;
         do {
             System.out.println("Podaj liczbę: ");
             number = scanner.nextInt();
